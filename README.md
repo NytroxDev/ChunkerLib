@@ -1,4 +1,4 @@
-# DataChunker
+# ChunkerLib
 
 [![PyPI version](https://img.shields.io/pypi/v/chunkerlib.svg)](https://pypi.org/project/chunkerlib/)
 [![Python versions](https://img.shields.io/pypi/pyversions/chunkerlib.svg)](https://pypi.org/project/chunkerlib/)
@@ -34,6 +34,12 @@ print(f"{chunker.number_of_chunks} chunks")
 - Splits `bytes` and `memoryview` without copying the data
 - Random access to chunks (`get_chunk`, `get_chunk_range`)
 - Static typed, compatible with Python 3.9+
+
+## Examples
+
+- `examples/basic_usage.py`: split data and reassemble it
+- `examples/random_access.py`: fetch a single chunk or a range
+- `examples/file_chunking.py`: split a file on disk into parts
 
 ## Documentation
 

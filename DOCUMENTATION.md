@@ -1,4 +1,4 @@
-# DataChunker documentation
+# ChunkerLib documentation
 
 ## DataChunker
 
