@@ -42,7 +42,7 @@ jobs:
         run: pip install mypy
 
       - name: mypy
-        run: mypy src/datachunker/
+        run: mypy src/chunkerlib/
 
   version-check:
     name: Version check
@@ -89,8 +89,8 @@ jobs:
       - name: Verify wheel contents
         run: |
           pip install dist/*.whl
-          python -c "import datachunker; print(f'datachunker {datachunker.__version__} imported successfully')"
-          pip uninstall datachunker -y
+          python -c "import chunkerlib; print(f'chunkerlib {chunkerlib.__version__} imported successfully')"
+          pip uninstall chunkerlib -y
 
   tests:
     name: Tests (Python ${{ matrix.python-version }})

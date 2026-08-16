@@ -1,22 +1,22 @@
 # DataChunker
 
-[![PyPI version](https://img.shields.io/pypi/v/datachunker.svg)](https://pypi.org/project/datachunker/)
-[![Python versions](https://img.shields.io/pypi/pyversions/datachunker.svg)](https://pypi.org/project/datachunker/)
-[![License](https://img.shields.io/github/license/NytroxDev/datachunker.svg)](https://github.com/NytroxDev/datachunker)
-[![CI](https://img.shields.io/github/actions/workflow/status/NytroxDev/datachunker/ci.yml)](https://github.com/NytroxDev/datachunker/actions)
+[![PyPI version](https://img.shields.io/pypi/v/chunkerlib.svg)](https://pypi.org/project/chunkerlib/)
+[![Python versions](https://img.shields.io/pypi/pyversions/chunkerlib.svg)](https://pypi.org/project/chunkerlib/)
+[![License](https://img.shields.io/github/license/NytroxDev/DataChunker.svg)](https://github.com/NytroxDev/DataChunker)
+[![CI](https://img.shields.io/github/actions/workflow/status/NytroxDev/DataChunker/ci.yml)](https://github.com/NytroxDev/DataChunker/actions)
 
 Split binary data into fixed-size chunks. Zero dependencies, fully typed, works with any file size thanks to memory views.
 
 ## Installation
 
 ```bash
-pip install datachunker
+pip install chunkerlib
 ```
 
 ## Quick start
 
 ```python
-from datachunker import DataChunker
+from chunkerlib import DataChunker
 
 data = b"some binary file content"
 

@@ -1,8 +1,8 @@
-"""Tests for datachunker.chunker."""
+"""Tests for chunkerlib.chunker."""
 
 import pytest
 
-from datachunker import DataChunker
+from chunkerlib import DataChunker
 
 
 class TestInit:

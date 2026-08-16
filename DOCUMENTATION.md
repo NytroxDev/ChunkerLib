@@ -65,7 +65,7 @@ Return the total number of chunks. This is `ceil(len(data) / chunk_size)`.
 ## Example
 
 ```python
-from datachunker import DataChunker
+from chunkerlib import DataChunker
 
 data = bytes(range(10))
 chunker = DataChunker(data, chunk_size=3)
