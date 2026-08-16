@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "chunkerlib"
 version = "0.1.0"
-description = "Split binary data into fixed-size chunks — zero dependencies, fully typed"
+description = "Split binary data into fixed-size chunks. Zero dependencies, fully typed"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
