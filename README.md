@@ -2,8 +2,8 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/chunkerlib.svg)](https://pypi.org/project/chunkerlib/)
 [![Python versions](https://img.shields.io/pypi/pyversions/chunkerlib.svg)](https://pypi.org/project/chunkerlib/)
-[![License](https://img.shields.io/github/license/NytroxDev/DataChunker.svg)](https://github.com/NytroxDev/DataChunker)
-[![CI](https://img.shields.io/github/actions/workflow/status/NytroxDev/DataChunker/ci.yml)](https://github.com/NytroxDev/DataChunker/actions)
+[![License](https://img.shields.io/github/license/NytroxDev/ChunkerLib.svg)](https://github.com/NytroxDev/ChunkerLib)
+[![CI](https://img.shields.io/github/actions/workflow/status/NytroxDev/ChunkerLib/ci.yml)](https://github.com/NytroxDev/ChunkerLib/actions)
 
 Split binary data into fixed-size chunks. Zero dependencies, fully typed, works with any file size thanks to memory views.
 

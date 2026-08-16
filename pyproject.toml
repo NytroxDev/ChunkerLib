@@ -52,9 +52,9 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/NytroxDev/DataChunker"
-Repository = "https://github.com/NytroxDev/DataChunker"
-Issues = "https://github.com/NytroxDev/DataChunker/issues"
+Homepage = "https://github.com/NytroxDev/ChunkerLib"
+Repository = "https://github.com/NytroxDev/ChunkerLib"
+Issues = "https://github.com/NytroxDev/ChunkerLib/issues"
 
 # Hatchling configuration (src layout)
 [tool.hatch.build.targets.wheel]
