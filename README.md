@@ -33,7 +33,7 @@ print(f"{chunker.number_of_chunks} chunks")
 - Zero runtime dependencies
 - Splits `bytes` and `memoryview` without copying the data
 - Random access to chunks (`get_chunk`, `get_chunk_range`)
-- Static typed, compatible with Python 3.9+
+- Static typed, compatible with Python 3.8+
 
 ## Examples
 

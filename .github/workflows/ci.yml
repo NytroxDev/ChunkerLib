@@ -98,7 +98,7 @@ jobs:
     needs: version-check
     strategy:
       matrix:
-        python-version: [ "3.9", "3.12", "3.14" ]
+        python-version: [ "3.8", "3.9", "3.12", "3.14" ]
       fail-fast: false
 
     steps:
